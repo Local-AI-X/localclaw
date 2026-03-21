@@ -37,7 +37,7 @@ LocalClaw 基于 GitHub OpenClaw 构建，是**可部署本地大模型的 OpenC
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/dashboard.jpg" style="width: 100%; height: auto;" alt="Dashboard">
+  <img src="resources/screenshot/dash_board.jpg" style="width: 100%; height: auto;" alt="Dashboard">
 </p>
 
 <p align="center">

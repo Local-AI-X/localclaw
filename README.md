@@ -20,11 +20,11 @@
 
 ## Project Overview
 
-**LocalClaw** is the bridge connecting powerful AI agents to everyday users. Built on [OpenClaw](https://github.com/OpenClaw), it transforms command-line AI orchestration into an accessible, beautiful desktop experience—no terminal required.
+LocalClaw is built on [OpenClaw](https://github.com/OpenClaw), and is a **deployable local LLM version of the OpenClaw desktop client**, designed for ordinary users:
 
-Whether you're automating workflows, managing AI-powered channels, or scheduling intelligent tasks, LocalClaw provides the interface you need to harness AI agents effectively.
-
-LocalClaw comes pre-configured with best-practice model providers, with native support for Windows and multilingual settings. Of course, you can also fine-tune advanced configurations through **Settings → Advanced → Developer Mode**.
+1. Say goodbye to command line / terminal operations. AI agent capabilities are visualized and easy to use, even for beginners;
+2. Pre-configured with high-quality model providers, native support for Windows and multilingual settings. Advanced users can fine-tune configurations through Developer Mode;
+3. Automatically matches deployable local large models based on hardware configuration, adjusts parameters automatically, enabling zero-barrier, zero-cost operation of OpenClaw with local large models, easily achieving AI freedom.
 
 ---
 
@@ -35,7 +35,7 @@ LocalClaw comes pre-configured with best-practice model providers, with native s
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/dashboard.jpg" style="width: 100%; height: auto;" alt="Dashboard">
+  <img src="resources/screenshot/dash_board.jpg" style="width: 100%; height: auto;" alt="Dashboard">
 </p>
 
 <p align="center">
