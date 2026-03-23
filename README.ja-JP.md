@@ -20,39 +20,54 @@
 
 ## プロジェクト概要
 
-LocalClaw は [OpenClaw](https://github.com/OpenClaw) をベースに構築され、**デプロイ可能なローカル LLM バージョンの OpenClaw デスクトップクライアント**です。一般ユーザー向けに設計されています：
+LocalClaw は [OpenClaw](https://github.com/OpenClaw) をベースに構築され、**デプロイ可能なローカル LLM バージョンの OpenClaw デスクトップクライアント**です。一般ユーザー向けに設計されており、ワンクリックでデプロイ可能なローカル LLM OpenClaw を楽しみ、トークンコストゼロとローカルデータセキュリティを実現し、複雑な設定にさよならし、真の AI の自由を実現します：
 
-1. コマンドライン / ターミナル操作にさよなら。AI エージェントの機能は視覚化され、初心者でも使いやすい；
-2. 高品質なモデルプロバイダーで事前設定され、Windows と多言語設定をネイティブにサポート。上級ユーザーも開発者モードで設定を微調整可能；
+1. コマンドライン / ターミナル操作にさよなら。AI 機能は視覚化され、初心者でもデプロイ可能なローカル LLM OpenClaw を楽しめます；
+2. 高品質なクラウドモデルプロバイダーとオープンソースの大規模モデルを事前設定し、インテリジェントルーティングアルゴリズムに基づいて最適なモデルを自動選択；
 3. ハードウェア構成に基づいてデプロイ可能なローカル大規模モデルを自動的にマッチングし、パラメータを自動調整。ゼロ障壁、ゼロコストでローカル大規模モデルを使用して OpenClaw を実行し、簡単に AI の自由を実現。
+
+- [公式ウェブサイト](https://www.localclaw.me)
 
 ---
 
 ## インターフェースプレビュー
 
 <p align="center">
+  <strong>チャットインターフェース</strong>
   <img src="resources/screenshot/chat.jpg" style="width: 100%; height: auto;" alt="チャットインターフェース">
 </p>
 
 <p align="center">
+  <strong>ダッシュボード</strong>
   <img src="resources/screenshot/dash_board.jpg" style="width: 100%; height: auto;" alt="ダッシュボード">
 </p>
 
 <p align="center">
+  <strong>スキル管理</strong>
   <img src="resources/screenshot/skills.jpg" style="width: 100%; height: auto;" alt="スキル管理">
 </p>
 
 <p align="center">
+  <strong>Cron タスク</strong>
   <img src="resources/screenshot/cron_task.jpg" style="width: 100%; height: auto;" alt="Cron タスク">
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/settings.jpg" style="width: 100%; height: auto;" alt="設定">
+  <strong>ローカル大規模モデルの選択</strong>
+  <img src="resources/screenshot/selectModels.jpg" style="width: 100%; height: auto;" alt="ローカル大規模モデルの選択">
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/selectModels.jpg" style="width: 100%; height: auto;" alt="モデル選択">
+  <strong>プロバイダークラウド設定</strong>
+  <img src="resources/screenshot/provider.jpg" style="width: 100%; height: auto;" alt="プロバイダークラウド設定">
 </p>
+
+<p align="center">
+  <strong>設定</strong>
+  <img src="resources/screenshot/settings.jpg" style="width: 100%; height: auto;" alt="設定">
+</p>
+
+
 ---
 
 ## なぜ LocalClaw か

@@ -20,39 +20,55 @@
 
 ## Project Overview
 
-LocalClaw is built on [OpenClaw](https://github.com/OpenClaw), and is a **deployable local LLM version of the OpenClaw desktop client**, designed for ordinary users:
+LocalClaw is built on [OpenClaw](https://github.com/OpenClaw), and is a **deployable local LLM version of the OpenClaw desktop client**, designed for ordinary users. Play with deployable local LLM OpenClaw with one click, achieve zero token cost and local data security, say goodbye to complex configuration, and truly realize AI freedom:
 
-1. Say goodbye to command line / terminal operations. AI agent capabilities are visualized and easy to use, even for beginners;
-2. Pre-configured with high-quality model providers, native support for Windows and multilingual settings. Advanced users can fine-tune configurations through Developer Mode;
+1. Say goodbye to command line / terminal operations. AI capabilities are visualized and easy to use, even beginners can play with deployable local LLM OpenClaw;
+2. Pre-configured with high-quality cloud model providers and open-source large models, automatically selects the optimal model based on intelligent routing algorithms;
 3. Automatically matches deployable local large models based on hardware configuration, adjusts parameters automatically, enabling zero-barrier, zero-cost operation of OpenClaw with local large models, easily achieving AI freedom.
+
+- [Official Website](https://www.localclaw.me)
 
 ---
 
 ## Interface Preview
 
 <p align="center">
+  <strong>Chat Interface</strong>
   <img src="resources/screenshot/chat.jpg" style="width: 100%; height: auto;" alt="Chat Interface">
 </p>
 
 <p align="center">
+  <strong>Dashboard</strong>
   <img src="resources/screenshot/dash_board.jpg" style="width: 100%; height: auto;" alt="Dashboard">
 </p>
 
 <p align="center">
+  <strong>Skills Management</strong>
   <img src="resources/screenshot/skills.jpg" style="width: 100%; height: auto;" alt="Skills Management">
 </p>
 
 <p align="center">
+  <strong>Cron Tasks</strong>
   <img src="resources/screenshot/cron_task.jpg" style="width: 100%; height: auto;" alt="Cron Tasks">
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/settings.jpg" style="width: 100%; height: auto;" alt="Settings">
+  <strong>Select Local Large Models</strong>
+  <img src="resources/screenshot/selectModels.jpg" style="width: 100%; height: auto;" alt="Select Local Large Models">
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/selectModels.jpg" style="width: 100%; height: auto;" alt="Select Models">
+  <strong>Add Cloud Providers</strong>
+  <img src="resources/screenshot/provider.jpg" style="width: 100%; height: auto;" alt="Provider Cloud Configuration">
 </p>
+
+
+<p align="center">
+  <strong>Settings</strong>
+  <img src="resources/screenshot/settings.jpg" style="width: 100%; height: auto;" alt="Settings">
+</p>
+
+
 ---
 
 ## Why LocalClaw

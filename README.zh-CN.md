@@ -20,41 +20,56 @@
 
 ## 项目概述
 
-LocalClaw 基于 GitHub OpenClaw 构建，是**可部署本地大模型的 OpenClaw 桌面客户端**，专为普通用户打造：
+LocalClaw 基于OpenClaw 构建，是**可部署本地大模型的 OpenClaw 桌面客户端**，专为普通用户打造，一键式玩转可部署本地大模型的OpenClaw，实现 0 token花费和本地数据安全，告别复杂的配置，真正实现AI自由；
 
 &#x20;
 
-1. 告别命令行 / 终端操作，AI 代理能力可视化、易上手，零基础也能玩转；
-2. 预配置优质模型提供商，原生支持 Windows、多语言，进阶可通过开发者模式微调配置；
+1. 告别命令行 / 终端操作，AI能力可视化、易上手，零基础也能玩转可部署的本地大模型的OpenClaw；
+2. 预配置优质模型云端提供商以及开源的大模型，根据智能路由算法自动选择最优模型；
 3. 根据硬件配置匹配对应的可部署的本地大模型，自动调整参数，零门槛、零成本用本地大模型运行 OpenClaw，轻松实现 AI 自由。
+
+- [官方网址](https://www.localclaw.me)
 
 ***
 
 ## 界面预览
 
 <p align="center">
-  <img src="resources/screenshot/chat.jpg" style="width: 100%; height: auto;" alt="Chat Interface">
+  <strong>聊天界面</strong>
+  <img src="resources/screenshot/zh/聊天.jpg" style="width: 100%; height: auto;" alt="聊天界面">
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/dash_board.jpg" style="width: 100%; height: auto;" alt="Dashboard">
+  <strong>仪表盘</strong>
+  <img src="resources/screenshot/zh/仪表盘.jpg" style="width: 100%; height: auto;" alt="仪表盘">
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/skills.jpg" style="width: 100%; height: auto;" alt="Skills Management">
+  <strong>技能管理</strong>
+  <img src="resources/screenshot/zh/技能.jpg" style="width: 100%; height: auto;" alt="技能管理">
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/cron_task.jpg" style="width: 100%; height: auto;" alt="Cron Tasks">
+  <strong>定时任务</strong>
+  <img src="resources/screenshot/zh/定时任务.jpg" style="width: 100%; height: auto;" alt="定时任务">
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/settings.jpg" style="width: 100%; height: auto;" alt="Settings">
+  <strong>添加云端服务商</strong>
+  <img src="resources/screenshot/zh/添加云端服务商.jpg" style="width: 100%; height: auto;" alt="添加云端服务商">
 </p>
 
 <p align="center">
-  <img src="resources/screenshot/selectModels.jpg" style="width: 100%; height: auto;" alt="Select Models">
+  <strong>选择本地模型</strong>
+  <img src="resources/screenshot/zh/选择本地模型.jpg" style="width: 100%; height: auto;" alt="选择本地模型">
 </p>
+
+<p align="center"></p>
+  <strong>设置</strong>
+  <img src="resources/screenshot/zh/设置.jpg" style="width: 100%; height: auto;" alt="设置">
+</p>
+
+
 ---
 
 ##
@@ -279,7 +294,7 @@ LocalClaw 建立在优秀的开源项目之上：
 加入我们的社区，与其他用户交流、获取支持并分享您的经验。
 
 \| 企业微信 | 飞书 |
-\| :---: | :---: | :---: |
+\| :---: | :---: |
 \| <img src="resources/community/wecom-qr.jpg" width="150" alt="WeChat QR Code" /> | <img src="resources/community/feishu-qr.jpg" width="150" alt="Feishu QR Code" /> |
 
 ***
