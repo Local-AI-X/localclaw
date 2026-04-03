@@ -321,7 +321,7 @@ LocalClaw内置50+开箱即用的AI技能，同时支持第三方技能市场，
 ## 六、联系我们
 
 - **官网**：[https://www.localclaw.me](https://www.localclaw.me)
-- **技术支持**：通过GitHub Issues(https://github.com/Local-AI-X/localclaw/issues)提交问题，全程为你提供AI使用保障。
+- **技术支持**：通过GitHub Issues(https://github.com/Local-AI-X/localclaw/issues) 提交问题，全程为你提供AI使用保障。
 - **GitHub**：[https://github.com/Local-AI-X/localclaw](https://github.com/Local-AI-X/localclaw)
 - **微信交流群**：
 
