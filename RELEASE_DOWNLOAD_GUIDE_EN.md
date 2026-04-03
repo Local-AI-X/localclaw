@@ -88,3 +88,4 @@ Get-FileHash LocalClaw-X.X.X-*.exe -Algorithm SHA256
 - 📖 [Full Documentation](https://github.com/localClaw/LocalClaw#readme)
 - 🐛 [Submit an Issue](https://github.com/localClaw/LocalClaw/issues)
 - 💬 [Join Discussions](https://github.com/localClaw/LocalClaw/discussions)
+
