@@ -66,7 +66,7 @@ Corresponding Interface:
 - Select the interface language: supports **Chinese / English / 日本語**, with "Chinese" selected by default
 - Click "Next" to continue, or click "Skip Settings" to enter the main interface directly (configuration can be completed in the Model Center later)
 
-![Welcome](resources/zh/onboarding.png)
+![Welcome](resources/en/onboarding.png)
 
 #### Step 2: Deployment Mode Selection
 
@@ -75,7 +75,7 @@ Corresponding Interface:
   - **Local Deployment**: Run open-source large models locally, data never leaves the local device, protect privacy, zero API fees, available offline
 - After selection, click "Next". The subsequent processes for the two modes are independent and explained separately:
 
-![Deployment Selection](resources/zh/onboarding-deployment-selection.png)
+![Deployment Selection](resources/en/onboarding-deployment-selection.png)
 
 ---
 
@@ -89,14 +89,14 @@ LocalClaw's local deployment runs based on Ollama, and the wizard will automatic
 - If already installed: Automatically detect the running status and default port (11434, ensure the port is available)
 - Automatically enter the next step after installation is complete
 
-![Install Ollama](resources/zh/onboarding-local-install-ollama.png)
+![Install Ollama](resources/en/onboarding-local-install-ollama.png)
 
 #### Step 2-2: Automatic Hardware Detection
 
 - The wizard automatically reads your device's hardware information: CPU cores, memory, VRAM, system platform
 - After confirming the information is correct, click "Next: Select Model"
 
-![Hardware Check](resources/zh/onboarding-local-hardware-check.png)
+![Hardware Check](resources/en/onboarding-local-hardware-check.png)
 
 #### Step 2-3: Model Selection
 
@@ -105,7 +105,7 @@ LocalClaw's local deployment runs based on Ollama, and the wizard will automatic
   - **Qwen 3.5 (2B)**: Ultra-lightweight and low-latency, fast response speed, suitable for high-configuration devices (marked as "Not Recommended" means the current hardware cannot run smoothly)
 - Please prioritize selecting models marked as **Recommended Configuration**, then click "Next"
 
-![Select Model](resources/zh/onboarding-local-select-model.png)
+![Select Model](resources/en/onboarding-local-select-model.png)
 
 #### Step 2-4: Model Download
 
@@ -113,7 +113,7 @@ LocalClaw's local deployment runs based on Ollama, and the wizard will automatic
 - Wait for the model download to complete (0.8B is about 1.0GB, 2B is about 1.5GB; automatic resumption is supported if the network is poor)
 - Automatically enter the next step after download is complete
 
-![Download Model](resources/zh/onboarding-local-download-ollama.png)
+![Download Model](resources/en/onboarding-local-download-ollama.png)
 
 ---
 
@@ -125,7 +125,7 @@ LocalClaw's local deployment runs based on Ollama, and the wizard will automatic
   - MiniMax, Moonshot (Kimi), SiliconFlow, Anthropic (Claude), OpenAI (GPT), Google (Gemini), OpenRouter
 - Select the service provider you want to use, then click "Next"
 
-![Cloud Provider](resources/zh/onboarding-cloud-provider.png)
+![Cloud Provider](resources/en/onboarding-cloud-provider.png)
 
 #### Step 2-2: Identity Verification
 
@@ -134,7 +134,7 @@ LocalClaw's local deployment runs based on Ollama, and the wizard will automatic
   - API Key: Enter your service provider's API key; **the key is only stored locally and will not be uploaded**
 - Enter the next step after verification is successful
 
-![Cloud Provider Auth](resources/zh/onboarding-cloud-provider-auth.png)
+![Cloud Provider Auth](resources/en/onboarding-cloud-provider-auth.png)
 
 ---
 
@@ -145,7 +145,7 @@ LocalClaw's local deployment runs based on Ollama, and the wizard will automatic
   1. Manage local models and cloud models in the Model Center
 - Click "Complete Settings", then click "Start Using" to enter the LocalClaw main interface and start using the AI assistant!
 
-![Deployment Complete](resources/zh/onboarding-local-deployment-complete.png)
+![Deployment Complete](resources/en/onboarding-local-deployment-complete.png)
 
 ### Step 4: Comparison of the Two Modes
 
@@ -173,7 +173,7 @@ This is the core interface for you to interact with AI, and also the default hom
   - Multi-Agent Parallel: Multi-Agent collaboration to handle complex tasks by role
 - **Real-Time Status Display**: The bottom displays the gateway connection status in real time to ensure stable service operation.
 
-![New Chat](resources/zh/chat-new.png)
+![New Chat](resources/en/chat-new.png)
 
 ---
 
@@ -188,7 +188,7 @@ One-stop management of all local/cloud AI models, monitoring operation status, a
 - **Model Statistics**: Display the number of downloaded models, number of running models, and total occupied space.
 - **Performance Monitoring**: Real-time charts display GPU utilization and VRAM occupancy to quickly troubleshoot performance issues.
 
-![Model Center Overview](resources/zh/model-center-overview.png)
+![Model Center Overview](resources/en/model-center-overview.png)
 
 #### 4.2.2 Local Model Management
 
@@ -196,7 +196,7 @@ One-stop management of all local/cloud AI models, monitoring operation status, a
 - Click "+ Add Model" to download more local-adapted large models with one click.
 - Click the delete button on the right side of the model to clean up unused models with one click and free up storage space.
 
-![Model Center Local Models](resources/zh/model-center-local-models.png)
+![Model Center Local Models](resources/en/model-center-local-models.png)
 
 #### 4.2.3 Cloud Model Providers
 
@@ -204,14 +204,14 @@ One-stop management of all local/cloud AI models, monitoring operation status, a
 - Click "+ Add Provider" to quickly access new cloud model services, supporting two methods: OAuth login/API key.
 - Freely set the default model and configure intelligent routing rules to realize automatic switching between local/cloud models.
 
-![Model Center Provider Management](resources/zh/model-center-provider-management.png)
+![Model Center Provider Management](resources/en/model-center-provider-management.png)
 
 #### 4.2.4 Diagnostic Center
 
 - Click "Start Full Diagnosis" to automatically detect issues such as Ollama environment, port occupancy, and hardware compatibility.
 - After diagnosis, repair suggestions are provided to solve common operation abnormalities with one click, no manual troubleshooting required.
 
-![Model Center Diagnostics](resources/zh/model-center-diagnostics.png)
+![Model Center Diagnostics](resources/en/model-center-diagnostics.png)
 
 ---
 
@@ -228,7 +228,7 @@ One-stop mastery of system operation status and AI resource consumption for effi
   - Supports filtering by model/time to view Token usage details for the past 7 days/30 days/all time.
   - Clearly displays input, output, cache usage, and corresponding costs for each model/service provider, facilitating cost control (zero Token fees for local models).
 
-![Dashboard](resources/zh/dashboard.png)
+![Dashboard](resources/en/dashboard.png)
 
 ---
 
@@ -243,9 +243,9 @@ LocalClaw has built-in 50+ out-of-the-box AI skills, and also supports third-par
   - Click "Install Skill" to search and install third-party skills from the ClawHub market (such as Google Workspace, 1Password, note management and other tool integrations), one-click installation, no additional configuration required.
   - Supports "Open Skill Folder" to manually manage local skill files and customize expansion capabilities.
 
-![Skills Management](resources/zh/skills-management.png)
+![Skills Management](resources/en/skills-management.png)
 
-![Skills Install](resources/zh/skills-install.png)
+![Skills Install](resources/en/skills-install.png)
 
 ---
 
@@ -260,7 +260,7 @@ Create exclusive AI agents, configure exclusive personalities, models, and workf
   - Message channel routing binding
 - **Core Value**: Route specific message channels (such as WeChat, Lark) to different Agents to achieve scenarios such as "Work Agent handles office messages, Life Agent handles personal messages", flexibly allocating AI capabilities.
 
-![Agents Management](resources/zh/agents-management.png)
+![Agents Management](resources/en/agents-management.png)
 
 ---
 
@@ -274,9 +274,9 @@ Realize AI automation through scheduled tasks, no manual triggering required, an
   2. Select the scheduling plan: support every minute/every 5 minutes/hourly/daily/weekly/monthly, or custom Cron expression;
   3. Delivery settings: choose to keep the results only in LocalClaw, or push to the configured external message channels (such as WeChat, Lark).
 
-![Scheduled Tasks](resources/zh/scheduled-tasks.png)
+![Scheduled Tasks](resources/en/scheduled-tasks.png)
 
-![Scheduled Tasks Create](resources/zh/scheduled-tasks-create.png)
+![Scheduled Tasks Create](resources/en/scheduled-tasks-create.png)
 
 ---
 
@@ -288,9 +288,9 @@ Unified management of multi-platform message channels, allowing AI to directly r
 - **Quick Configuration**: Click the corresponding channel, fill in the API key/application ID according to the guide, complete the robot creation, and AI can respond to messages in real time on the corresponding platform.
 - **Agent Routing Binding**: Bind channels to exclusive Agents to achieve differentiated AI responses for different channels, meeting multi-scenario needs such as office and life.
 
-![Channels](resources/zh/channels.png)
+![Channels](resources/en/channels.png)
 
-![Channels Add](resources/zh/channels-add.png)
+![Channels Add](resources/en/channels-add.png)
 
 ---
 
