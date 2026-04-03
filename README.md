@@ -1,290 +1,346 @@
 <h1 align="center">LocalClaw</h1>
 
 <p align="center">
-  <strong>Desktop GUI for OpenClaw AI Agent</strong>
+  <strong>All-in-One AI Desktop Client Based on OpenClaw · Zero Command Line · Local/Cloud Full Support · One-Stop AI Work Hub</strong>
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#why-localclaw">Why LocalClaw</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#architecture">Architecture</a> •
-  <a href="#ollama">Local Models</a>
-</p>
-
-<p align="center">
-  English | <a href="README.zh-CN.md">简体中文</a> | <a href="README.ja-JP.md">日本語</a>
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.ja-JP.md">日本語</a>
 </p>
 
 ---
 
-## Project Overview
+# LocalClaw Quick Start Guide
 
-LocalClaw is built on [OpenClaw](https://github.com/OpenClaw), and is a **deployable local LLM version of the OpenClaw desktop client**, designed for ordinary users. Play with deployable local LLM OpenClaw with one click, achieve zero token cost and local data security, say goodbye to complex configuration, and truly realize AI freedom:
+**All-in-One AI Desktop Client Based on OpenClaw · Zero Command Line · Local/Cloud Full Support · One-Stop AI Work Hub**
 
-1. Say goodbye to command line / terminal operations. AI capabilities are visualized and easy to use, even beginners can play with deployable local LLM OpenClaw;
-2. Pre-configured with high-quality cloud model providers and open-source large models, automatically selects the optimal model based on intelligent routing algorithms;
-3. Automatically matches deployable local large models based on hardware configuration, adjusts parameters automatically, enabling zero-barrier, zero-cost operation of OpenClaw with local large models, easily achieving AI freedom.
-
-- [Official Website](https://www.localclaw.me)
+Official Website: [https://www.localclaw.me](https://www.localclaw.me)
 
 ---
 
-## Interface Preview
+## I. Product Introduction
 
-<p align="center">
-  <strong>Chat Interface</strong>
-  <img src="resources/screenshot/chat.jpg" style="width: 100%; height: auto;" alt="Chat Interface">
-</p>
+LocalClaw is an **all-in-one AI desktop client** developed based on OpenClaw. One-click local deployment of large models is its core feature, and it is even more a one-stop AI work hub: it supports seamless access to cloud API models, integrates full capabilities such as conversational interaction, model management, skill expansion, multi-Agent orchestration, scheduled automation, and multi-channel message access. It completely eliminates complex command lines, allowing even beginners to fully control their AI experience.
 
-<p align="center">
-  <strong>Dashboard</strong>
-  <img src="resources/screenshot/dash_board.jpg" style="width: 100%; height: auto;" alt="Dashboard">
-</p>
+### Core Advantages
 
-<p align="center">
-  <strong>Skills Management</strong>
-  <img src="resources/screenshot/skills.jpg" style="width: 100%; height: auto;" alt="Skills Management">
-</p>
+✅ **Full Mode Compatibility**: Dual support for local deployment and cloud API, flexible switching to meet different scenarios
 
-<p align="center">
-  <strong>Cron Tasks</strong>
-  <img src="resources/screenshot/cron_task.jpg" style="width: 100%; height: auto;" alt="Cron Tasks">
-</p>
+✅ **Zero Threshold to Get Started**: Visual wizards replace command lines, full graphical operation, no technical background required
 
-<p align="center">
-  <strong>Select Local Large Models</strong>
-  <img src="resources/screenshot/selectModels.jpg" style="width: 100%; height: auto;" alt="Select Local Large Models">
-</p>
+✅ **Full Function Integration**: One-stop solution for conversations, models, skills, Agents, automation, and multi-channel access
 
-<p align="center">
-  <strong>Add Cloud Providers</strong>
-  <img src="resources/screenshot/provider.jpg" style="width: 100%; height: auto;" alt="Provider Cloud Configuration">
-</p>
+✅ **Data Sovereignty Guarantee**: 100% of data in local mode never leaves the device, privacy is fully controllable, and there are zero API fees
 
-
-<p align="center">
-  <strong>Settings</strong>
-  <img src="resources/screenshot/settings.jpg" style="width: 100%; height: auto;" alt="Settings">
-</p>
-
+✅ **Cross-Platform Adaptation**: Natively supports Windows and macOS, perfectly adapting to various hardware
 
 ---
 
-## Why LocalClaw
+## II. System Pre-Requirements
 
-**LocalClaw** is a deployable local LLM version of the OpenClaw client, designed for ordinary users, allowing everyone to easily run OpenClaw with local large models, achieving zero-cost usage and AI freedom.
-
-| Challenge | LocalClaw Solution |
-|-----------|-------------------|
-| Complex CLI setup | One-click installation, guided setup wizard |
-| Complex model selection and configuration | Automatic model recommendations based on hardware, no manual configuration needed |
-| Configuration file editing | Visual settings with real-time validation |
-| Process management | Automatic Gateway lifecycle management |
-| Multiple AI providers | Unified provider configuration panel |
-| Skill/plugin installation | Built-in skill marketplace and management |
-
-### Built-in OpenClaw
-
-LocalClaw is built directly on the official **OpenClaw** core. We don't require separate installation; instead, we embed the runtime into the application, providing a seamless "out-of-the-box" experience.
-
-We are committed to maintaining strict synchronization with the upstream OpenClaw project, ensuring you always have access to the latest features, stability improvements, and ecosystem compatibility provided by official releases.
+- **Operating System**: Windows 10+ / macOS 15+ (full adaptation for Apple Silicon / Intel)
+- **Hardware Recommendations**:
+  - Local Operation: 8GB RAM/8GB VRAM minimum (8GB+ recommended); an independent graphics card can provide better performance
+  - Cloud Operation: Only a stable network connection is required
+- **Network Description**: Internet connection is required for the first model download/connection to cloud service providers; **full offline operation is supported after local models are downloaded**
 
 ---
 
-## Features
+## III. 5-Step Initialization Wizard (Must-Read for First Launch)
 
-### 🎯 Zero Configuration Barrier
-Complete the entire setup process from installation to first AI interaction through an intuitive graphical interface. No terminal commands, no YAML files, no hunting for environment variables.
+### 3.1 Install the Client
 
-### 💬 Intelligent Chat Interface
-Communicate with AI agents through a modern chat experience. Supports multi-conversation context, message history, and Markdown rich content rendering.
-
-### 🤖 Ollama Local Model Support
-Built-in Ollama integration for running large language models locally:
-- Automatic detection and startup of Ollama service
-- One-click download of recommended models (Qwen, Llama, DeepSeek, etc.)
-- Hardware requirement detection and model recommendations
-- Support for multimodal models (vision understanding)
-
-### 📡 Multi-Channel Management
-Configure and monitor multiple AI channels simultaneously. Each channel runs independently, allowing you to run specialized agents for different tasks.
-
-### ⏰ Cron Scheduled Automation
-Schedule AI tasks to run automatically. Define triggers, set intervals, and let your AI agents work around the clock without human intervention.
-
-### 🧩 Extensible Skill System
-Extend AI agent capabilities through pre-built skills. Browse, install, and manage skills through the integrated skills panel—no package manager required.
-
-### 🔐 Secure Provider Integration
-Connect multiple AI providers (OpenAI, Anthropic, Moonshot, etc.) with credentials securely stored in the system-native keychain.
-
-### 🌙 Adaptive Themes
-Light mode, dark mode, or system-synced theme. LocalClaw automatically adapts to your preferences.
-
-### 🔄 Automatic Updates
-Built-in automatic update mechanism, supporting dual-source updates from Alibaba Cloud OSS (for domestic users) and GitHub Releases.
+1. Visit the LocalClaw official website: [https://www.localclaw.me](https://www.localclaw.me)
+2. Download the installation package for your corresponding system (Windows / macOS)
+3. Complete the installation as prompted. The first launch will enter the **5-step initialization wizard**, which will guide you through the configuration in full.
 
 ---
 
-## Technical Architecture
+### 3.2 Full Process of Initialization Wizard
 
-### Dual-Process Architecture
+#### Step 1: Welcome and Language Selection
 
-LocalClaw adopts a **dual-process architecture**, separating UI concerns from AI runtime operations:
+Corresponding Interface:
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     LocalClaw Desktop App                        │
-│                                                                  │
-│  ┌────────────────────────────────────────────────────────────┐  │
-│  │              Electron Main Process                          │  │
-│  │  • Window and application lifecycle management              │  │
-│  │  • Gateway process supervision                              │  │
-│  │  • System integration (tray, notifications, keychain)       │  │
-│  │  • Automatic update orchestration                           │  │
-│  │  • Ollama local model service management                    │  │
-│  └────────────────────────────────────────────────────────────┘  │
-│                              │                                    │
-│                              │ IPC                                │
-│                              ▼                                    │
-│  ┌────────────────────────────────────────────────────────────┐  │
-│  │              React Renderer Process                         │  │
-│  │  • Modern componentized UI (React 19)                       │  │
-│  │  • Zustand state management                                 │  │
-│  │  • Real-time WebSocket communication                        │  │
-│  │  • Markdown rich text rendering                             │  │
-│  │  • i18n multilingual support                                │  │
-│  └────────────────────────────────────────────────────────────┘  │
-└──────────────────────────────┬──────────────────────────────────┘
-                               │
-                               │ WebSocket (JSON-RPC)
-                               ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     OpenClaw Gateway                             │
-│                                                                  │
-│  • AI agent runtime and orchestration                           │
-│  • Message channel management                                    │
-│  • Skill/plugin execution environment                           │
-│  • Provider abstraction layer                                    │
-│  • Device identity authentication                                │
-└─────────────────────────────────────────────────────────────────┘
-```
+- Enter the welcome page on first launch and confirm the product introduction and core advantages
+- Select the interface language: supports **Chinese / English / 日本語**, with "Chinese" selected by default
+- Click "Next" to continue, or click "Skip Settings" to enter the main interface directly (configuration can be completed in the Model Center later)
 
-### Design Principles
+![Welcome](resources/zh/onboarding.png)
 
-- **Process Isolation**: AI runtime runs in a separate process, ensuring the UI remains responsive even during heavy computation
-- **Graceful Recovery**: Built-in exponential backoff reconnection logic automatically handles transient failures
-- **Secure Storage**: API keys and sensitive data leverage the operating system's native secure storage mechanisms
-- **Hot Reload**: Development mode supports instant UI updates without restarting the Gateway
+#### Step 2: Deployment Mode Selection
+
+- Enter the "Setting Up" page and select your usage mode:
+  - **Cloud Model**: Use third-party cloud APIs, no local configuration required, ready to use immediately (requires network, charged by API calls)
+  - **Local Deployment**: Run open-source large models locally, data never leaves the local device, protect privacy, zero API fees, available offline
+- After selection, click "Next". The subsequent processes for the two modes are independent and explained separately:
+
+![Deployment Selection](resources/zh/onboarding-deployment-selection.png)
 
 ---
 
-## Getting Started
+### [Mode A: Full Process of Local Deployment]
 
-### System Requirements
+#### Step 2-1: Ollama Environment Check
 
-- **Operating System**: macOS 11+, Windows 10+, or Linux (Ubuntu 20.04+)
-- **Memory**: Minimum 4GB RAM (8GB recommended)
-- **Storage**: 1GB available disk space
-- **Node.js**: 22+ (for development)
-- **Package Manager**: pnpm 10+ (recommended)
+LocalClaw's local deployment runs based on Ollama, and the wizard will automatically complete environment detection and installation:
 
-### Installation
+- If Ollama is not installed: The wizard will automatically trigger the download and installation process of Ollama, with real-time download progress visible; you can also manually visit the [Ollama official website](https://ollama.com/) to install it (the Mac version is about 130M, the Windows version is about 1.1G; Windows users please wait patiently for the download)
+- If already installed: Automatically detect the running status and default port (11434, ensure the port is available)
+- Automatically enter the next step after installation is complete
 
-#### Pre-built Versions (Recommended)
+![Install Ollama](resources/zh/onboarding-local-install-ollama.png)
 
-Download the latest version for your platform from the [Releases](https://github.com/Local-AI-X/localclaw/releases) page.
+#### Step 2-2: Automatic Hardware Detection
 
+- The wizard automatically reads your device's hardware information: CPU cores, memory, VRAM, system platform
+- After confirming the information is correct, click "Next: Select Model"
 
-### First Launch
+![Hardware Check](resources/zh/onboarding-local-hardware-check.png)
 
-When you first launch LocalClaw, the **Setup Wizard** will guide you through:
+#### Step 2-3: Model Selection
 
-1. **Language & Region** – Configure your preferred locale
-2. **AI Providers** – Enter API keys for supported providers
-3. **Skill Packages** – Select pre-configured skills for common use cases
-4. **Verification** – Test your configuration before entering the main interface
+- Based on your hardware configuration, the wizard automatically recommends suitable local large models, including a total of 20 large models suitable for local use:
+  - **Qwen 3.5 (0.8B)**: Extremely lightweight, can run smoothly on CPU only, suitable for entry-level experience (marked as "Recommended Configuration")
+  - **Qwen 3.5 (2B)**: Ultra-lightweight and low-latency, fast response speed, suitable for high-configuration devices (marked as "Not Recommended" means the current hardware cannot run smoothly)
+- Please prioritize selecting models marked as **Recommended Configuration**, then click "Next"
 
-> **Note for Moonshot (Kimi) Users**: LocalClaw enables Kimi web search by default. When configuring Moonshot, LocalClaw will also sync Kimi web search to the OpenClaw configuration's China endpoint (`https://api.moonshot.cn/v1`).
+![Select Model](resources/zh/onboarding-local-select-model.png)
 
-### Proxy Settings
+#### Step 2-4: Model Download
 
-LocalClaw includes built-in proxy settings for environments where Electron, OpenClaw Gateway, or channels like Telegram need to access the internet through a local proxy client.
+- Confirm the selected model information (name, size), then click "Start Download"
+- Wait for the model download to complete (0.8B is about 1.0GB, 2B is about 1.5GB; automatic resumption is supported if the network is poor)
+- Automatically enter the next step after download is complete
 
-Open **Settings → Gateway → Proxy** and configure:
-
-- **Proxy Server**: Default proxy for all requests
-- **Bypass Rules**: Hosts that should connect directly, separated by semicolons, commas, or newlines
-- In **Developer Mode**, you can also choose to override:
-  - **HTTP Proxy**
-  - **HTTPS Proxy**
-  - **ALL_PROXY / SOCKS**
-
-Recommended local proxy example:
-
-```text
-Proxy Server: http://127.0.0.1:7890
-```
+![Download Model](resources/zh/onboarding-local-download-ollama.png)
 
 ---
 
-## Ollama Local Models {#ollama}
+### [Mode B: Full Process of Cloud Mode]
 
-LocalClaw has built-in support for Ollama, allowing you to run large language models locally:
+#### Step 2-1: Model Provider Selection
 
-### Supported Models
+- Enter the model provider selection page, the drop-down menu supports mainstream global AI service providers:
+  - MiniMax, Moonshot (Kimi), SiliconFlow, Anthropic (Claude), OpenAI (GPT), Google (Gemini), OpenRouter
+- Select the service provider you want to use, then click "Next"
 
-| Model | Size | VRAM Requirements | Features |
-|-------|------|-------------------|----------|
-| Qwen 3.5 (14B) | 9.4GB | 16GB+ | Chinese-optimized, strong reasoning |
-| Qwen 3.5 (7B) | 4.7GB | 8GB+ | Balanced performance and resources |
-| Llama 3.3 (8B) | 4.7GB | 8GB+ | Excellent for English scenarios |
-| DeepSeek R1 (14B) | 9.3GB | 16GB+ | Code and reasoning |
-| GLM 4 (9B) | 6.3GB | 10GB+ | Chinese dialogue |
+![Cloud Provider](resources/zh/onboarding-cloud-provider.png)
 
-### Automatic Management
+#### Step 2-2: Identity Verification
 
-- Automatically detect and start Ollama service on startup
-- Recommend suitable models based on hardware configuration
-- One-click download and installation of models
-- Real-time display of background download progress
+- Select the login method: **OAuth Browser Login** / **API Key Input**
+  - OAuth: Click "Login with Browser" and complete authorized login in the browser
+  - API Key: Enter your service provider's API key; **the key is only stored locally and will not be uploaded**
+- Enter the next step after verification is successful
 
+![Cloud Provider Auth](resources/zh/onboarding-cloud-provider-auth.png)
 
-## Use Cases
+---
 
-### 🤖 Personal AI Assistant
-Configure a general-purpose AI agent that can answer questions, draft emails, summarize documents, and help with daily tasks—all through a clean desktop interface.
+### Step 3: Complete Settings and Start Using
 
-### 📊 Automated Monitoring
-Set up scheduled agents to monitor news feeds, track prices, or watch for specific events. Results are sent to your preferred notification channel.
+- After all configurations are completed, enter the "Ready!" page and confirm the deployment is successful (local mode shows "Model Added Successfully", cloud mode shows "Service Provider Configured Successfully")
+- The page prompts subsequent operations:
+  1. Manage local models and cloud models in the Model Center
+- Click "Complete Settings", then click "Start Using" to enter the LocalClaw main interface and start using the AI assistant!
 
-### 💻 Developer Productivity
-Integrate AI into your development workflow. Use agents to review code, generate documentation, or automate repetitive coding tasks.
+![Deployment Complete](resources/zh/onboarding-local-deployment-complete.png)
 
-### 🔄 Workflow Automation
-Chain multiple skills together to create complex automation pipelines. Process data, transform content, and trigger actions—all visually orchestrated.
+### Step 4: Comparison of the Two Modes
 
+| Features | Cloud Model Mode | Local Deployment Mode |
+|----------|------------------|----------------------|
+| Deployment Difficulty | No configuration required, ready to use immediately | One-click automatic deployment, zero command line |
+| Data Privacy | Data uploaded to third-party service providers | 100% locally stored, data never leaves the device |
+| Offline Use | Not supported, network required at all times | Fully supported, available offline after model download |
+| Cost | Charged by API calls | Zero API fees, only need to download the model once |
+| Applicable Scenarios | Quick experience, high computing power demand scenarios | Privacy-sensitive, offline use, long-term low-cost use |
 
-## Acknowledgments
+---
 
-LocalClaw is built on excellent open-source projects:
+## IV. Detailed Explanation of Core Function Modules
 
-- [OpenClaw](https://github.com/OpenClaw) – AI agent runtime
+### 4.1 Conversation Interface (Main Entrance for AI Interaction)
+
+This is the core interface for you to interact with AI, and also the default homepage of LocalClaw:
+
+- **Quickly Initiate a Conversation**: Click "+ New Conversation" on the left to start a new chat session, supporting multi-session history management.
+- **Flexible Switching Capability**: The top bar allows quick switching between the currently used **local large model** (such as Qwen 3.5 0.8B) or **cloud model** to adapt to different scenario needs.
+- **Multi-Mode Interaction**: Supports three interaction modes to meet different needs:
+  - Task Processing: One-time Q&A to solve problems quickly
+  - Continuous Execution: Long-term tasks with continuous AI follow-up
+  - Multi-Agent Parallel: Multi-Agent collaboration to handle complex tasks by role
+- **Real-Time Status Display**: The bottom displays the gateway connection status in real time to ensure stable service operation.
+
+![New Chat](resources/zh/chat-new.png)
+
+---
+
+### 4.2 Model Management Center (Total Control Hub for AI Models)
+
+One-stop management of all local/cloud AI models, monitoring operation status, and one-click problem diagnosis:
+
+#### 4.2.1 Quick Overview (Home Dashboard)
+
+- **Service Status**: Real-time display of Ollama service running status, service address, and version number.
+- **Hardware Information**: Automatically detect CPU, memory, GPU, and VRAM usage at a glance.
+- **Model Statistics**: Display the number of downloaded models, number of running models, and total occupied space.
+- **Performance Monitoring**: Real-time charts display GPU utilization and VRAM occupancy to quickly troubleshoot performance issues.
+
+![Model Center Overview](resources/zh/model-center-overview.png)
+
+#### 4.2.2 Local Model Management
+
+- View the list of downloaded local models, including model size, addition time, and other information.
+- Click "+ Add Model" to download more local-adapted large models with one click.
+- Click the delete button on the right side of the model to clean up unused models with one click and free up storage space.
+
+![Model Center Local Models](resources/zh/model-center-local-models.png)
+
+#### 4.2.3 Cloud Model Providers
+
+- Manage connected third-party service providers (such as MiniMax, OpenAI, Kimi, etc.), marked with "Configured/Default" status.
+- Click "+ Add Provider" to quickly access new cloud model services, supporting two methods: OAuth login/API key.
+- Freely set the default model and configure intelligent routing rules to realize automatic switching between local/cloud models.
+
+![Model Center Provider Management](resources/zh/model-center-provider-management.png)
+
+#### 4.2.4 Diagnostic Center
+
+- Click "Start Full Diagnosis" to automatically detect issues such as Ollama environment, port occupancy, and hardware compatibility.
+- After diagnosis, repair suggestions are provided to solve common operation abnormalities with one click, no manual troubleshooting required.
+
+![Model Center Diagnostics](resources/zh/model-center-diagnostics.png)
+
+---
+
+### 4.3 Dashboard (System Status and Cost Overview)
+
+One-stop mastery of system operation status and AI resource consumption for efficient management:
+
+- **Core Status Cards**:
+  - Gateway: Displays gateway running status, port, and PID to ensure normal service connection.
+  - Channels: Displays the number of connected message channels (such as WeChat, Lark, etc.).
+  - Skills: Displays the number of enabled skills to quickly grasp the scope of AI capabilities.
+  - Running Time: Displays the running time since the last restart.
+- **Token Consumption Statistics**:
+  - Supports filtering by model/time to view Token usage details for the past 7 days/30 days/all time.
+  - Clearly displays input, output, cache usage, and corresponding costs for each model/service provider, facilitating cost control (zero Token fees for local models).
+
+![Dashboard](resources/zh/dashboard.png)
+
+---
+
+### 4.4 Skill Management (AI Capability Expansion Center)
+
+LocalClaw has built-in 50+ out-of-the-box AI skills, and also supports third-party skill markets for unlimited expansion of AI capabilities:
+
+- **Skill List Management**:
+  - View "Built-in Skills" and "Market Skills" by category, supporting search and batch enable/disable.
+  - Each skill card displays function description, version number, and installation path; click the switch to quickly enable/disable.
+- **Skill Installation and Management**:
+  - Click "Install Skill" to search and install third-party skills from the ClawHub market (such as Google Workspace, 1Password, note management and other tool integrations), one-click installation, no additional configuration required.
+  - Supports "Open Skill Folder" to manually manage local skill files and customize expansion capabilities.
+
+![Skills Management](resources/zh/skills-management.png)
+
+![Skills Install](resources/zh/skills-install.png)
+
+---
+
+### 4.5 Agent Management (Multi-Agent Orchestration Center)
+
+Create exclusive AI agents, configure exclusive personalities, models, and workflows for different scenarios to achieve precise routing:
+
+- **Default Agent**: The system automatically creates "Main Agent" as the global default response agent, inheriting basic configurations.
+- **Add New Agent**: Click "+ Add Agent" to create an exclusive agent, which can be configured with:
+  - Exclusive model (local/cloud)
+  - Skill permission scope
+  - Message channel routing binding
+- **Core Value**: Route specific message channels (such as WeChat, Lark) to different Agents to achieve scenarios such as "Work Agent handles office messages, Life Agent handles personal messages", flexibly allocating AI capabilities.
+
+![Agents Management](resources/zh/agents-management.png)
+
+---
+
+### 4.6 Scheduled Tasks (AI Automated Workflows)
+
+Realize AI automation through scheduled tasks, no manual triggering required, and automatically execute preset workflows:
+
+- **Task Overview**: View the running status (Running/Paused/Failed) of all scheduled tasks, supporting refresh, start/stop, and edit.
+- **Task Creation Process**:
+  1. Fill in the task name and AI prompt (such as "Give me a summary of today's morning news + weather");
+  2. Select the scheduling plan: support every minute/every 5 minutes/hourly/daily/weekly/monthly, or custom Cron expression;
+  3. Delivery settings: choose to keep the results only in LocalClaw, or push to the configured external message channels (such as WeChat, Lark).
+
+![Scheduled Tasks](resources/zh/scheduled-tasks.png)
+
+![Scheduled Tasks Create](resources/zh/scheduled-tasks-create.png)
+
+---
+
+### 4.7 Message Channels (Multi-Channel AI Access)
+
+Unified management of multi-platform message channels, allowing AI to directly respond to your social/office messages:
+
+- **Full Platform Support**: Covers mainstream platforms such as Telegram, Discord, WhatsApp, WeChat, DingTalk, Lark, WeChat Work, and QQ.
+- **Quick Configuration**: Click the corresponding channel, fill in the API key/application ID according to the guide, complete the robot creation, and AI can respond to messages in real time on the corresponding platform.
+- **Agent Routing Binding**: Bind channels to exclusive Agents to achieve differentiated AI responses for different channels, meeting multi-scenario needs such as office and life.
+
+![Channels](resources/zh/channels.png)
+
+![Channels Add](resources/zh/channels-add.png)
+
+---
+
+## V. Common Issues and Troubleshooting
+
+### 1. Ollama Installation/Running Abnormality
+
+- Solution: Enter "Model Management Center - Diagnostic Center" and click "Start Full Diagnosis". The system will automatically detect and fix the problem; you can also manually go to the Ollama official website to download and install. Before installation, ensure that port 11434 is not occupied.
+
+### 2. Slow/Interrupted Local Model Download
+
+- Solution: Prioritize selecting smaller lightweight models (such as Qwen 3.5 0.8B), which can effectively improve download speed;
+
+### 3. Want to Switch Model/Agent Response Priority
+
+- Solution: In "Model Management Center - Cloud Model Providers", set the target model as "Default"; in "Agent Management", set the target Agent as the default route.
+
+### 4. Skill Installation Failure/Unable to Enable
+
+- Solution: First check skill compatibility to confirm that the system meets the operating requirements of the skill; if it still cannot be enabled, you can reinstall the skill in "Skill Management" or manually replace the skill files.
+
+### 5. Scheduled Tasks Not Executing
+
+- Solution: First check if the scheduling time setting of the scheduled task is correct, and ensure that LocalClaw is in the running state; at the same time, confirm that the delivery channel configuration is correct and the network connection is normal, and it will resume normal execution.
+
+---
+
+## VI. Contact Us
+
+- **Official Website**: [https://www.localclaw.me](https://www.localclaw.me)
+- **Technical Support**: Submit questions through GitHub Issues(https://github.com/Local-AI-X/localclaw/issues), and we will provide you with full AI usage guarantee.
+- **GitHub**: [https://github.com/Local-AI-X/localclaw](https://github.com/Local-AI-X/localclaw)
+
+---
+
+💡 **Core Tip**: LocalClaw is more than just a local large model deployment tool; it is your **exclusive AI work hub**. Whether you need local privacy deployment, flexible cloud calls, automated office, or multi-Agent collaboration, you can achieve it all in one stop, fully controlling your AI data and experience.
+
+> (Note: Some parts of this document may be generated by AI)
+
+---
+
+## Acknowledgements
+
+LocalClaw is built upon excellent open-source projects:
+
+- [OpenClaw](https://github.com/OpenClaw) – AI Agent Runtime
 - [Electron](https://www.electronjs.org/) – Cross-platform desktop framework
 - [React](https://react.dev/) – UI component library
 - [shadcn/ui](https://ui.shadcn.com/) – Beautifully designed components
 - [Zustand](https://github.com/pmndrs/zustand) – Lightweight state management
 - [Ollama](https://ollama.com/) – Local large language models
-
----
-
-## Community
-
-Join our community to connect with other users, get support, and share your experiences.
-
-| WeCom | Feishu | 
-| :---: | :---: | :---: |
-| <img src="resources/community/wecom-qr.jpg" width="150" alt="WeChat QR Code" /> | <img src="resources/community/feishu-qr.jpg" width="150" alt="Feishu QR Code" /> |
 
 ---
